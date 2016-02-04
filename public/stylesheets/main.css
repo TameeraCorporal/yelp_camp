@@ -1,0 +1,139 @@
+/*Full Site CSS*/
+body{
+  background-image: url("https://source.unsplash.com/6C6cEOBeE-E");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Merriweather Sans" , sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+  
+ 
+  color: white;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.2),
+							 0px 8px 13px rgba(0,0,0,0.1),
+							 0px 18px 23px rgba(0,0,0,0.1);
+	
+}
+
+h1, h2, h3, h4{
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1{
+  font-size: 3.998em;
+}
+
+h2{
+  font-size: 2.827em;
+}
+
+h3{
+  font-size: 1.999em;
+}
+
+h4{
+  font-size: 1.414em;
+}
+
+.btn{
+  font-size: 1em;
+}
+
+/*Landing Page CSS*/
+
+hr{
+    border: 0;
+    height: 1px;
+    width: 50%;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+input{
+  color: black;
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.landing{
+  background-image: url("https://source.unsplash.com/eqvj5r8nbH8");
+  background-size: cover;
+  color: white;
+
+  
+}
+
+.landing-header{
+  font-weight: 700;
+ 
+    
+}
+
+/*All Campgrounds CSS*/
+
+.jumbotron{
+  text-align: center;
+  padding-top: 0px;
+  background-color: rgba(0,0,0,.4);
+ 
+}
+
+.jumbotron h1{
+  margin-top: 30px;
+  padding-top: 0px;
+  
+}
+
+.thumbnail > .campground-image{
+   height: 140px;
+}
+
+.thumbnail img{
+  width: 100%;
+ }
+
+.thumbnail{
+  padding: 0px;
+  background-color:  rgba(0,0,0,.7);
+  
+}
+
+.thumbnail .caption-full{
+  padding: 9px;
+ 
+}
+
+.caption{
+   background-color: rgba(0,0,0,.6);
+   margin-bottom: 10px;
+}
+
+.caption h4{
+  color: white;
+}
+
+/* Login/Registration Pages */
+.login-registration{
+  padding-top: 15%;
+  
+}
+
+/*Campground More Info */
+
+.show-comments{
+  background-color: rgba(0,0,0,.6);
+}
+
+.thumbnail> .img-responsive{
+  height: 400px;
+}
+
+#delete-form{
+  display: inline;
+}
+
+
+

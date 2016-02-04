@@ -1,0 +1,15 @@
+<% include ./partials/header %>
+
+<div class="text-center login-registration">
+  <h1>YelpCamp Sign Up</h1>
+  <h3>Sign up to create new campgrounds and share your comments on your favorite campsites!</h3>
+  <br>
+  
+  <form action="/register" method="POST">
+    <input type="text" name="username" placeholder="username">
+    <input type="password" name="password" placeholder="password">
+    <button class="btn btn-default">Sign Up</button>
+  </form>
+</div> 
+
+<% include ./partials/footer %>
